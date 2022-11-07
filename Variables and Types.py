@@ -10,3 +10,17 @@ print(mystring)
 mystring = "hello"
 print(mystring)
 
+The difference between the two is that using double quotes makes it easy to include apostrophes (whereas these would terminate the string if using single quotes)
+mystring = "Don't worry about apostrophes"
+print(mystring)
+
+Simple operators can be executed on numbers and strings:
+one = 1
+two = 2
+three = one + two
+print(three)
+
+hello = "hello"
+world = "world"
+helloworld = hello + " " + world
+print(helloworld)
