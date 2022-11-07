@@ -29,3 +29,4 @@ Assignments can be done on more than one variable "simultaneously"
 a, b = 3, 4
 print(a, b)
 
+Exercise:
