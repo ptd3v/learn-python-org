@@ -1,20 +1,20 @@
-Python supports two types of numbers - integers(whole numbers) and floating point numbers(decimals)
+#Python supports two types of numbers - integers(whole numbers) and floating point numbers(decimals)
 myfloat = 7.0
 print(myfloat)
 myfloat = float(7)
 print(myfloat)
 
-Strings are defined either with a single quote or a double quotes.
+#Strings are defined either with a single quote or a double quotes.
 mystring = 'hello'
 print(mystring)
 mystring = "hello"
 print(mystring)
 
-The difference between the two is that using double quotes makes it easy to include apostrophes (whereas these would terminate the string if using single quotes)
+#The difference between the two is that using double quotes makes it easy to include apostrophes (whereas these would terminate the string if using single quotes)
 mystring = "Don't worry about apostrophes"
 print(mystring)
 
-Simple operators can be executed on numbers and strings:
+#Simple operators can be executed on numbers and strings:
 one = 1
 two = 2
 three = one + two
@@ -25,7 +25,7 @@ world = "world"
 helloworld = hello + " " + world
 print(helloworld)
 
-Assignments can be done on more than one variable "simultaneously"
+#Assignments can be done on more than one variable "simultaneously"
 a, b = 3, 4
 print(a, b)
 
