@@ -1,0 +1,1 @@
+Python supports two types of numbers - integers(whole numbers) and floating point numbers(decimals)
