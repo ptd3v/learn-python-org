@@ -32,9 +32,9 @@ x = object()
 y = object()
 
 # TODO: change this code
-x_list = [x]
-y_list = [y]
-big_list = []
+x_list = [x] * 10
+y_list = [y] * 10
+big_list = [x] * 10 + [y] * 10
 
 print("x_list contains %d objects" % len(x_list))
 print("y_list contains %d objects" % len(y_list))
