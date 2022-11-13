@@ -1,71 +1,83 @@
-# I prefer ""
-astring = "Hello world!"
-astring2 = 'Hello world!'
+x = 2
+print(x == 2) # prints out True
+print(x == 3) # prints out False
+print(x < 3) # prints out True
 
-astring = "Hello world!"
-print("single quotes are ' '")
-print(len(astring))
+#Boolean operators
+name = "John"
+age = 23
+if name == "John" and age == 23:
+    print("Your name is John, and you are also 23 years old.")
 
-astring = "Hello world!"
-print(astring.index("o"))
+if name == "John" or name == "Rick":
+    print("Your name is either John or Rick.")
 
-astring = "Hello world!"
-print(astring.count("l"))
+#The "in" operator
+name = "John"
+if name in ["John", "Rick"]:
+    print("Your name is either John or Rick.")
 
-astring = "Hello world!"
-print(astring[3:7])
+statement = False
+another_statement = True
+if statement is True:
+    # do something
+    pass
+elif another_statement is True: # else if
+    # do something else
+    pass
+else:
+    # do another thing
+    pass
 
-#[start:stop:step]
-astring = "Hello world!"
-print(astring[3:7:2])
+statement = False
+another_statement = True
+if statement is True:
+    print("do something")
+    pass
+elif another_statement is True: # else if
+    print("do something else")
+    pass
+else:
+    print("do another thing")
+    pass
 
-#There is no function like strrev in C to reverse a string
-astring = "Hello world!"
-print(astring[::-1])
+x = 1
+if x == 2:
+    print("x equals two!")
+else:
+    print("x does not equal to two.")
 
-astring = "Hello world!"
-print(astring.upper())
-print(astring.lower())
+#The 'is' operator
+x = [1,2,3]
+y = [1,2,3]
+print(x == y) # Prints out True
+print(x is y) # Prints out False
 
-astring = "Hello world!"
-print(astring.startswith("Hello"))
-print(astring.endswith("asdfasdfasdf"))
-
-astring = "Hello world!"
-afewwords = astring.split(" ")
+#The "not" operator
+print(not False) # Prints out True
+print((not False) == (False)) # Prints out False
 
 #Exercise
-s = "Strings are awesome!"
-# Length should be 20
-print("Length of s = %d" % len(s))
+# change this code
+number = 16
+second_number = 0
+first_array = [1,2,3]
+second_array = [1,2]
 
-# First occurrence of "a" should be at index 8
-print("The first occurrence of the letter a = %d" % s.index("a"))
+if number > 15:
+    print("1")
 
-# Number of a's should be 2
-print("a occurs %d times" % s.count("a"))
+if first_array:
+    print("2")
 
-# Slicing the string into bits
-print("The first five characters are '%s'" % s[:5]) # Start to 5
-print("The next five characters are '%s'" % s[5:10]) # 5 to 10
-print("The thirteenth character is '%s'" % s[12]) # Just number 12
-print("The characters with odd index are '%s'" %s[1::2]) #(0-based indexing)
-print("The last five characters are '%s'" % s[-5:]) # 5th-from-last to end
+if len(second_array) == 2:
+    print("3")
 
-# Convert everything to uppercase
-print("String in uppercase: %s" % s.upper())
+if len(first_array) + len(second_array) == 5:
+    print("4")
 
-# Convert everything to lowercase
-print("String in lowercase: %s" % s.lower())
+if first_array and first_array[0] == 1:
+    print("5")
 
-# Check how a string starts
-if s.startswith("Str"):
-    print("String starts with 'Str'. Good!")
-
-# Check how a string ends
-if s.endswith("ome!"):
-    print("String ends with 'ome!'. Good!")
-
-# Split the string into three separate strings,
-# each containing only a word
-print("Split the words of the string: %s" % s.split(" "))
+if not second_number:
+    print("6")
