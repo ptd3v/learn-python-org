@@ -15,6 +15,6 @@ print("%s is %d years old." % (name, age))
 
 #Exercise
 data = ("John", "Doe", 53.44)
-format_string = "Hello %s %s. Your balance is %d"
+format_string = "Hello %s %s. Your current balance is $%s."
 
 print(format_string % data)
