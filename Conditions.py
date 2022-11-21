@@ -11,6 +11,7 @@ if name == "John" and age == 23:
 
 if name == "John" or name == "Rick":
     print("Your name is either John or Rick.")
+    print("Your name is either John or Rick.")
 
 #The "in" operator
 name = "John"
