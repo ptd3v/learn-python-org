@@ -1,5 +1,5 @@
 #Arithmetic Operators
-number = 1 + 2 * 3 / 4.0
+number = 1 + 2 * 3 / 5.0
 print(number)
 
 #Modulo - The remainder
