@@ -5,7 +5,7 @@ class MyClass:
         print("This is a message inside the class.")
 
 class MyClass:
-    variable = "blah"
+    variable = "bla"
 
     def function(self):
         print("This is a message inside the class.")
