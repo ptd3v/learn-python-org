@@ -1,4 +1,4 @@
-class Mlass:
+class Mylass:
     variable = "blah"
 
     def function(self):
