@@ -64,6 +64,8 @@ class NumberHolder:
 
    def returnNumber(self):
        return self.number
+   def returnNumber(self):
+       return self.number
 
 var = NumberHolder(7)
 print(var.returnNumber()) #Prints '7'
