@@ -37,6 +37,7 @@ for x in range(10):
     # Check if x is even
     if x % 2 == 0:
         continue
+        
     print(x)
 
 # Prints out 0,1,2,3,4 and then it prints "count value reached 5"
