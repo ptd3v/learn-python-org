@@ -80,11 +80,11 @@ class Vehicle:
         return desc_str
 
 # your code goes here
-car1 = Vehicles()
+car1 = Vehicle()
 car1.name = "Fer"
 car1.color = "red"
 car1.kind = "convertible"
-car1.value = 60000.00
+car1.value = 60000.000
 
 car2 = Vehicle()
 car2.name = "Jump"
