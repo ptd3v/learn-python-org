@@ -84,7 +84,7 @@ car1 = Vehicle()
 car1.name = "Fer"
 car1.color = "red"
 car1.kind = "convertible"
-car1.value = 60000.000
+car1.value = 60000.00
 
 car2 = Vehicle()
 car2.name = "Jump"
