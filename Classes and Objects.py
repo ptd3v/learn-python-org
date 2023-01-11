@@ -94,4 +94,4 @@ car2.value = 10000.00
 
 # test code
 print(car1.description())
-print(car2.description())-
+print(car2.description())
