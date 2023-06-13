@@ -17,7 +17,7 @@ __name__
 #Define the Vehicle class
 class Vehicle:
     name = ""
-    kind = "car"
+    kind = "cars"
     color = ""
     value = 100.00
     def description(self):
