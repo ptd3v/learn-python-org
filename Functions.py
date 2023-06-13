@@ -10,7 +10,7 @@ def my_function_with_args(username, greeting):
 def sum_two_numbers(a, b):
     return a + b
 
-# Define 3 functions
+#Define 3 functions
 def my_function():
     print("Hello From My Function!")
 
