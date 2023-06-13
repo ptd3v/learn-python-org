@@ -14,7 +14,6 @@ class MyClass:
         print("This is a message inside the class.")
 
 myobjectx = MyClass()
-
 class MyClass:
     variable = "blah"
 
