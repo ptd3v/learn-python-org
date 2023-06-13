@@ -17,7 +17,7 @@ for x in range(3, 6):
 for x in range(3, 8, 2):
     print(x)
 
-#"While" loops
+#"While" Loops
 #This prints out 0,1,2,3,4
 
 count = 0
