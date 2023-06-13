@@ -8,7 +8,7 @@ print(a)
 b = set(["John", "Jill"])
 print(b)
 
-#Intersection method
+#Intersection Method
 a = set(["Jake", "John", "Eric"])
 b = set(["John", "Jill"])
 
