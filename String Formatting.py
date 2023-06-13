@@ -1,11 +1,11 @@
 #This is a summary of content and completed test exercise from learnpython.org
 
 #String Formatting
-#This prints out "Hello, John!"
+#Prints out "Hello, John!"
 name = "John"
 print("Hello, %s!" % name)
 
-#This prints out "John is 23 years old."
+#Prints out "John is 23 years old."
 name = "John"
 age = 23
 print("%s is %d years old." % (name, age))
