@@ -1,6 +1,6 @@
 #This is a summary of content and completed test exercise from learnpython.org
 
-#Python supports two types of numbers - integers(whole numbers) and floating point numbers(decimals)
+#Python supports two types of numbers. Integers(whole numbers) and floating point numbers(decimals)
 #Variable and Types
 myfloat = 7.0
 print(myfloat)
