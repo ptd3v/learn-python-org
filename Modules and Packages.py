@@ -1,7 +1,7 @@
 #This is a summary of content and completed test exercise from learnpython.org
 
 #Modules and Packages
-#Game.py Example
+#A game.py Example
 import draw
 
 def play_game():
