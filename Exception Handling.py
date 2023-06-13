@@ -3,7 +3,7 @@
 #Exception Handling
 print(a)
 
-#error
+#Error
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'a' is not defined
