@@ -1,6 +1,6 @@
 #This is a summary of content and completed test exercise from learnpython.org
 
-# I prefer ""
+#I prefer ""
 astring = "Hello world!"
 astring2 = 'Hello world!'
 
