@@ -10,7 +10,7 @@ import pandas as pd
 brics = pd.DataFrame(dict)
 print(brics)
 
-#Set the index for brics
+#Set brics index
 brics.index = ["BR", "RU", "IN", "CH", "SA"]
 
 #Print out brics with new index values
