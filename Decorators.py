@@ -4,7 +4,7 @@
 def functions(arg):
     return "value"
 
-#Works the same as
+#The same as..
 def function(arg):
     return "value"
 function = decorator(function)
