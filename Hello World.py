@@ -1,7 +1,7 @@
 #This is a summary of content and completed test exercise from learnpython.org
 
 #Hello World
-print("This line will be printed.")
+print("This line will be printed")
 
 #Indentation Example
 x = 1
