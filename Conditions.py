@@ -2,9 +2,9 @@
 
 #Conditions
 x = 2
-print(x == 2) #Prints out True
-print(x == 3) #Prints out False
-print(x < 3) #Prints out True
+print(x == 2) #Prints True
+print(x == 3) #Prints False
+print(x < 3) #Prints True
 
 #Boolean operators
 name = "John"
