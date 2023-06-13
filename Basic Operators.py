@@ -4,7 +4,7 @@
 number = 1 + 2 * 3 / 4.0
 print(number)
 
-#Modulo - The remain
+#Modulo - The remainder
 remainder = 11 % 3
 print(remainder)
 
