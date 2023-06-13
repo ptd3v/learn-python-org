@@ -10,7 +10,7 @@ for pet in my_pets:
 
 print(uppered_pets)
 
-#Alternative UPPERCASE method
+#Alternative UPPERCASE Method
 my_pets = ['alfred', 'tabitha', 'william', 'arla']
 uppered_pets = list(map(str.upper, my_pets))
 
