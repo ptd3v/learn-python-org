@@ -1,9 +1,6 @@
 #This is a summary of content and completed test exercise from learnpython.org
 
 #Serialization
-import json
-
-#json Load Method
 import json 
 print(json.loads(json_string))
 
