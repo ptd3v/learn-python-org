@@ -1,6 +1,6 @@
 #This is a summary of content and completed test exercise from learnpython.org
 
-#Partial functions
+#Partial Functions
 from functools import partial
 
 #Multiplicaton Example
