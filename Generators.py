@@ -8,7 +8,7 @@ def lottery():
     for i in range(6):
         yield random.randint(1, 40)
 
-    #Returns a 7th number between 1 and 15
+    #Returns 7th number between 1 and 15
     yield random.randint(1, 15)
 
 for random_number in lottery():
