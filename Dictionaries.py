@@ -15,7 +15,7 @@ phonebook = {
 }
 print(phonebook)
 
-#Removing from a Dictionary
+#Removing from Dictionary
 phonebook = {
    "John" : 938477566,
    "Jack" : 938377264,
